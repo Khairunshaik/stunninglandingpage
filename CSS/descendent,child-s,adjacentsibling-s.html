@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <style>
+        header p{
+            color: aquamarine;
+        }
+    </style> -->
+    <!-- <style>
+        .main > p{  /*child selectors-if you have child as a p tag*/
+            color:aqua;
+        }
+    </style> -->
+
+    <style>
+        .main + p{
+            color:blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <!--
+    descendent
+    <header>
+        <div>   child-3 
+            <div>            child-1 
+                <p>lorem.</p>
+            </div>
+            <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta, odio.
+            </p>
+            <span>Lorem, ipsum dolor.</span>
+        </div>
+    </header> -->
+
+    <!--
+    chil-selectors
+    <div class="main">
+        <div>
+            <div>
+                <p>Lorem ipsum dolor sit</p>
+            </div>
+        </div>
+        <p>fathima</p>
+        <p>chinnu</p>
+        <p>tamum</p>
+        <p>noori</p>
+        <div>Ali
+            <div>
+                <p>Rafi</p>
+            </div>
+        </div>
+        
+
+    </div> -->
+
+    <!-- adjacent sibling selectors -->
+     
+    <div class="main">   
+        <!-- /* this main class has one sibling that is p-akash*/  -->
+        <div>
+            <p>noori</p>
+            <div>
+                <p>chinnu</p>
+            </div>
+            <p>chahat</p>
+        </div>
+        <p>tamum</p>
+        <div>
+            <a href="sagar"></a>
+
+        </div>
+        <p>rafi</p>
+    </div>
+    <p>Akash</p>
+
+    <!-- general siblings selectors
+    main ~ p
+    selects all the elements that are next siblings of specified element -->
+
+
+</body>
+</html>

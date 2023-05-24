@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .c1{
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            border-radius: 100px;;
+            position:absolute;
+            animation-name: movecircle;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear ;
+        }
+        /* .c2{
+            width: 50px;
+            height: 50px;
+            background-color: pink;
+            position:absolute;
+            animation-name: movecircle;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear ;
+        }
+        .c3{
+            width: 50px;
+            height: 50px;
+            background-color: pink;
+            position:absolute;
+            animation-name: movecircle;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear ;
+        } */
+        @keyframes movecircle{
+            0%{
+                left:0px;
+                background-color: rgb(215, 248, 150);
+            }
+            50%{
+                left:1300px;
+                background-color: rgb(15, 181, 246);
+            }
+            100%{
+                left:0px;
+                background-color: rgb(253, 72, 193);
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="c1"></div>
+    <!-- <div class="c2"></div>
+    <div class="c3"></div>
+</body> -->
+</html>

@@ -1,0 +1,107 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif
+}
+header{
+    width: 100%;
+    min-height: 140vh;
+    background-image: url(https://images.freeimages.com/images/large-previews/f44/wedding-1313266.jpg);
+    background-position: center;
+    /* background: cover; */
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 5%;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    border-radius: 120%;
+    cursor: pointer;
+}
+.nav-links li{
+    display: inline-block;
+    list-style:none;
+    margin: 10px 70px;
+    font-size: 20px;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: white;
+}
+.nav-links li a:hover{
+    color: rgb(19, 93, 52);
+}
+.register-button{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.register-button:hover{
+    color:deeppink;
+}
+.container{
+    padding:0 8px;
+}
+.container h1{
+    color:rgb(66, 49, 49);
+    font-size: 64px;
+    font-weight: 800;
+    margin: 70px auto;
+    text-align: center;
+}
+.search{
+    background-color:rgb(250, 250, 244);
+    width: 50%;
+    margin: 50px auto;
+    padding: 15px 15px 15px 30px;
+    border-radius: 80px;
+}
+.search form{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.search form input{
+    display: block;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+label{
+    font-size: 20px;
+    cursor: pointer;
+}
+label:hover{
+    color:mediumslateblue;
+}
+.check-button{
+    font-size: 16px;
+    border: none;
+    background-color: white;
+    color:black;
+    padding: 6px 8px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.wedding-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.wedding-gallery img{
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+    margin:10px;
+    border: 1px solid black;
+    cursor: pointer;
+}

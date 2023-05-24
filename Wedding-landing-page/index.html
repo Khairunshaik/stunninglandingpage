@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Khamrun wedding planners</title>
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+            box-sizing: border-box;
+            font-family:'Times New Roman', Times, serif
+        }
+        header{
+            width: 100%;
+            min-height: 140vh;
+            background-image: url(https://images.freeimages.com/images/large-previews/f44/wedding-1313266.jpg);
+            background-position: center;
+            /* background: cover; */
+        }
+        .nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px 5%;
+        }
+        .logo{
+            height: 100px;
+            width: 100px;
+            border-radius: 120%;
+            cursor: pointer;
+        }
+        .nav-links li{
+            display: inline-block;
+            list-style:none;
+            margin: 10px 70px;
+            font-size: 20px;
+        }
+        .nav-links li a{
+            text-decoration: none;
+            color: white;
+        }
+        .nav-links li a:hover{
+            color: rgb(19, 93, 52);
+        }
+        .register-button{
+            text-decoration: none;
+            background-color: black;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 20px;
+        }
+        .register-button:hover{
+            color:deeppink;
+        }
+        .container{
+            padding:0 8px;
+        }
+        .container h1{
+            color:rgb(66, 49, 49);
+            font-size: 64px;
+            font-weight: 800;
+            margin: 70px auto;
+            text-align: center;
+        }
+        .search{
+            background-color:rgb(250, 250, 244);
+            width: 50%;
+            margin: 50px auto;
+            padding: 15px 15px 15px 30px;
+            border-radius: 80px;
+        }
+        .search form{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .search form input{
+            display: block;
+            border: none;
+            outline: none;
+            font-size: 16px;
+        }
+        label{
+            font-size: 20px;
+            cursor: pointer;
+        }
+        label:hover{
+            color:mediumslateblue;
+        }
+        .check-button{
+            font-size: 16px;
+            border: none;
+            background-color: white;
+            color:black;
+            padding: 6px 8px;
+            border-radius: 30px;
+            cursor: pointer;
+        }
+        .wedding-gallery{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .wedding-gallery img{
+            height: 300px;
+            width: 400px;
+            border-radius: 10px;
+            margin:10px;
+            border: 1px solid black;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <img class="logo" src="https://clipground.com/images/wedding-ring-vector-png-10.png" alt="logo">
+            <ul class="nav-links">
+                <li><a href="">Home</a></li>
+                <li><a href="">Place</a></li>
+                <li><a href="">Price</a></li>
+                <li><a href="">Contact</a></li>
+
+            </ul>
+            <a href="" class="register-button">Register Now</a>
+        </nav>
+        <div class="container">
+            <h1>We make your wedding memorable</h1>
+        </div>
+        <div class="search">
+            <form action="">
+                <div>
+                    <label for="place">Place</label>
+                    <input type="text" placeholder="Wedding place" id="Place">
+                </div>
+
+                <div>
+                    <label for="Date">Date</label>
+                    <input type="date" placeholder="Wedding Date" id="Date">
+                </div>
+                <button class="check-button">Check Avaliability</button>
+            </form>
+        </div>
+    </header>
+    <main>
+
+        <h1 style="text-align: center; margin: 20px; font-size: 35px; color:dimgrey">Wedding gallery</h1>
+        <div class="wedding-gallery">
+            
+
+            <div>
+                <img src="http://dreamoccasions.com/wp-content/uploads/2018/03/c12.jpg" alt="">
+            </div>
+            <div>
+                <img src="http://sigaram.co.in/decorations/wp-content/uploads/sites/7/2015/12/Wedding-decoration-Subalakshmi-Mahal-Cuddalore-10.jpg" alt="">
+            </div>
+            <div>
+                <img src="http://s3.weddbook.com/t4/2/1/2/2127356/wedding-planning-reception.jpg" alt="">
+            </div>
+            <div>
+                <img src="https://www.smashingtheglass.com/wp-content/uploads/2018/01/The-Wedding-Gallery_0497.jpg" alt="">
+            </div>
+            <div>
+                <img src="https://d2e5ushqwiltxm.cloudfront.net/wp-content/uploads/sites/67/2019/10/10040220/0009-wedding_0027.jpg" alt="">
+            </div>
+            <div>
+                <img src="https://roowedding.com/wp-content/uploads/2017/03/kibuck.jpg" alt="">
+            </div>
+
+        </div>
+    </main>
+    
+</body>
+</html>
